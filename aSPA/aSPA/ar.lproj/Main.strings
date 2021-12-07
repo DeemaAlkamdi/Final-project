@@ -1,0 +1,36 @@
+
+/* Class = "UITextField"; placeholder = "Enter Your Number"; ObjectID = "58a-k7-xDb"; */
+"58a-k7-xDb.placeholder" = "Enter Your Number";
+
+/* Class = "UIButton"; configuration.title = "Choose Serviecs"; ObjectID = "8ch-vV-HIy"; */
+"8ch-vV-HIy.configuration.title" = "Choose Serviecs";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "8ch-vV-HIy"; */
+"8ch-vV-HIy.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Schedule Appointment"; ObjectID = "9Wt-Yo-HtV"; */
+"9Wt-Yo-HtV.text" = "Schedule Appointment";
+
+/* Class = "UIButton"; configuration.title = "Continue"; ObjectID = "C2r-bL-4EQ"; */
+"C2r-bL-4EQ.configuration.title" = "Continue";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "C2r-bL-4EQ"; */
+"C2r-bL-4EQ.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Services👇🏻"; ObjectID = "IwC-ie-sBw"; */
+"IwC-ie-sBw.text" = "Services👇🏻";
+
+/* Class = "UILabel"; text = "Total Cost:"; ObjectID = "Llq-Qb-LYu"; */
+"Llq-Qb-LYu.text" = "Total Cost:";
+
+/* Class = "UITextField"; placeholder = "Enter Your Name"; ObjectID = "M3Q-je-jyk"; */
+"M3Q-je-jyk.placeholder" = "Enter Your Name";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Sds-F2-lAb"; */
+"Sds-F2-lAb.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "A Spa King Fahad Road"; ObjectID = "di4-Qp-fOU"; */
+"di4-Qp-fOU.text" = "A Spa King Fahad Road";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "kZO-Bw-PIT"; */
+"kZO-Bw-PIT.normalTitle" = "Done";

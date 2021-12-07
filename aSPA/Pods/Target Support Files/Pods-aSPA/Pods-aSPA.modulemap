@@ -1,0 +1,6 @@
+framework module Pods_aSPA {
+  umbrella header "Pods-aSPA-umbrella.h"
+
+  export *
+  module * { export * }
+}
