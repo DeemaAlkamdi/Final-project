@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B537B1CC276091D5007C87C4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B537B1CB276091D5007C87C4 /* User.swift */; };
+		B537B1CE27609542007C87C4 /* ReviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B537B1CD27609541007C87C4 /* ReviewVC.swift */; };
+		B537B1D027609C67007C87C4 /* ReviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B537B1CF27609C67007C87C4 /* ReviewTableViewCell.swift */; };
+		B537B1D22760E137007C87C4 /* na.gif in Resources */ = {isa = PBXBuildFile; fileRef = B537B1D12760E137007C87C4 /* na.gif */; };
+		B537B1D42760E20B007C87C4 /* GifsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B537B1D32760E20B007C87C4 /* GifsVC.swift */; };
+		B582A2ED275F7B070083F7C6 /* RatingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B582A2EC275F7B070083F7C6 /* RatingController.swift */; };
+		B582A2EF275F82A10083F7C6 /* AlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B582A2EE275F82A10083F7C6 /* AlertVC.swift */; };
+		B582A2F1275F85560083F7C6 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B582A2F0275F85560083F7C6 /* CreateAccountVC.swift */; };
+		B582A2F3275F93360083F7C6 /* FeedbackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B582A2F2275F93360083F7C6 /* FeedbackVC.swift */; };
 		B5A2BD652757612F001E1CA6 /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A2BD642757612F001E1CA6 /* LocationVC.swift */; };
 		B5A2BD6727578E97001E1CA6 /* PhotosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A2BD6627578E97001E1CA6 /* PhotosVC.swift */; };
 		B5A2BD6B27578EEB001E1CA6 /* PhotosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A2BD6A27578EEB001E1CA6 /* PhotosCell.swift */; };
@@ -23,6 +32,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B537B1CB276091D5007C87C4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B537B1CD27609541007C87C4 /* ReviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewVC.swift; sourceTree = "<group>"; };
+		B537B1CF27609C67007C87C4 /* ReviewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewTableViewCell.swift; sourceTree = "<group>"; };
+		B537B1D12760E137007C87C4 /* na.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = na.gif; sourceTree = "<group>"; };
+		B537B1D32760E20B007C87C4 /* GifsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifsVC.swift; sourceTree = "<group>"; };
+		B582A2EC275F7B070083F7C6 /* RatingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingController.swift; sourceTree = "<group>"; };
+		B582A2EE275F82A10083F7C6 /* AlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertVC.swift; sourceTree = "<group>"; };
+		B582A2F0275F85560083F7C6 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
+		B582A2F2275F93360083F7C6 /* FeedbackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackVC.swift; sourceTree = "<group>"; };
 		B5A2BD642757612F001E1CA6 /* LocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
 		B5A2BD6627578E97001E1CA6 /* PhotosVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosVC.swift; sourceTree = "<group>"; };
 		B5A2BD6A27578EEB001E1CA6 /* PhotosCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCell.swift; sourceTree = "<group>"; };
@@ -91,6 +109,7 @@
 				B5A8E99B275630C9009DAFD7 /* SceneDelegate.swift */,
 				B5A8E99F275630C9009DAFD7 /* Main.storyboard */,
 				B5A8E9A2275630CC009DAFD7 /* Assets.xcassets */,
+				B537B1D12760E137007C87C4 /* na.gif */,
 				B5A8E9A4275630CC009DAFD7 /* LaunchScreen.storyboard */,
 				B5A8E9A7275630CC009DAFD7 /* Info.plist */,
 			);
@@ -100,6 +119,7 @@
 		B5DC21F8275DE807001B0374 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				B537B1CB276091D5007C87C4 /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -107,6 +127,7 @@
 		B5DC21F9275DE829001B0374 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B537B1CF27609C67007C87C4 /* ReviewTableViewCell.swift */,
 				B5A2BD6A27578EEB001E1CA6 /* PhotosCell.swift */,
 			);
 			path = Views;
@@ -120,6 +141,12 @@
 				B5A2BD642757612F001E1CA6 /* LocationVC.swift */,
 				B5A2BD6627578E97001E1CA6 /* PhotosVC.swift */,
 				B5A8E9B727565B67009DAFD7 /* ServicesVC.swift */,
+				B582A2EC275F7B070083F7C6 /* RatingController.swift */,
+				B582A2EE275F82A10083F7C6 /* AlertVC.swift */,
+				B582A2F0275F85560083F7C6 /* CreateAccountVC.swift */,
+				B582A2F2275F93360083F7C6 /* FeedbackVC.swift */,
+				B537B1CD27609541007C87C4 /* ReviewVC.swift */,
+				B537B1D32760E20B007C87C4 /* GifsVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -193,6 +220,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B537B1D22760E137007C87C4 /* na.gif in Resources */,
 				B5A8E9AE27563355009DAFD7 /* GoogleService-Info.plist in Resources */,
 				B5A8E9A6275630CC009DAFD7 /* LaunchScreen.storyboard in Resources */,
 				B5A8E9A3275630CC009DAFD7 /* Assets.xcassets in Resources */,
@@ -249,11 +277,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B537B1CC276091D5007C87C4 /* User.swift in Sources */,
 				B5A8E9BC27565F81009DAFD7 /* CheckoutVC.swift in Sources */,
+				B537B1CE27609542007C87C4 /* ReviewVC.swift in Sources */,
 				B5A8E9B827565B67009DAFD7 /* ServicesVC.swift in Sources */,
 				B5A8E99A275630C9009DAFD7 /* AppDelegate.swift in Sources */,
+				B582A2EF275F82A10083F7C6 /* AlertVC.swift in Sources */,
 				B5A8E9BA27565F37009DAFD7 /* AppointmentVC.swift in Sources */,
+				B537B1D027609C67007C87C4 /* ReviewTableViewCell.swift in Sources */,
+				B582A2ED275F7B070083F7C6 /* RatingController.swift in Sources */,
+				B537B1D42760E20B007C87C4 /* GifsVC.swift in Sources */,
+				B582A2F3275F93360083F7C6 /* FeedbackVC.swift in Sources */,
 				B5A8E99C275630C9009DAFD7 /* SceneDelegate.swift in Sources */,
+				B582A2F1275F85560083F7C6 /* CreateAccountVC.swift in Sources */,
 				B5A2BD6B27578EEB001E1CA6 /* PhotosCell.swift in Sources */,
 				B5A2BD652757612F001E1CA6 /* LocationVC.swift in Sources */,
 				B5A2BD6727578E97001E1CA6 /* PhotosVC.swift in Sources */,

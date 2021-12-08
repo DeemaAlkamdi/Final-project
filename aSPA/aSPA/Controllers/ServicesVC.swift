@@ -27,8 +27,6 @@ class ServicesVC: UIViewController, UITableViewDataSource, UITableViewDelegate, 
     @IBOutlet weak var cost: UILabel!
     
     
-    //    SERVICES
-    
     //    sets number of rows = size of dictionary. in this case, 8 rows
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return servicesDict.count
