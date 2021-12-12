@@ -11,11 +11,12 @@ import FirebaseFirestore
 class FeedbackVC: UIViewController {
     
     
-    @IBOutlet weak var ratingfinal: RatingController!
+
+    @IBOutlet weak var nameTF: UITextField!
     @IBOutlet weak var commentTF: UITextField!
     @IBOutlet weak var gifsview: UIImageView!
     
-    @IBOutlet weak var ratingStackView: RatingController!
+
     
     @IBAction func post(_ sender: Any) {
         haB()
@@ -24,9 +25,9 @@ class FeedbackVC: UIViewController {
      func haB() {
       guard let currentUserID = Auth.auth().currentUser?.uid else {return}
       Firestore.firestore().document("users/\(currentUserID)").setData([
+        "name" : nameTF.text as Any,
         "comment" : commentTF.text as Any,
         "id" : currentUserID,
-        "rating" :ratingfinal.starsRating as Any,
        
       ],merge: true)
       
@@ -42,25 +43,12 @@ class FeedbackVC: UIViewController {
                   print (error as Any)
                   return
                 }
+                  self.nameTF.text = doucument?.data()?["name"] as? String
                 self.commentTF.text = doucument?.data()?["comment"] as? String
-                  self.ratingfinal.starsRating = doucument?.data()?["rating"] as! Int
                 
               }
-          
-          
-        
-        
-        
-        
-        
-        
         let nailGiff = UIImage.gifImageWithName("na")
         gifsview.image = nailGiff
-    }
-    
-    
-    @IBAction func Howmanyclickedstar(_ sender: Any) {
-        print(ratingStackView.starsRating)
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

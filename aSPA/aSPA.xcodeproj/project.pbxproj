@@ -9,10 +9,8 @@
 /* Begin PBXBuildFile section */
 		B537B1CC276091D5007C87C4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B537B1CB276091D5007C87C4 /* User.swift */; };
 		B537B1CE27609542007C87C4 /* ReviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B537B1CD27609541007C87C4 /* ReviewVC.swift */; };
-		B537B1D027609C67007C87C4 /* ReviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B537B1CF27609C67007C87C4 /* ReviewTableViewCell.swift */; };
 		B537B1D22760E137007C87C4 /* na.gif in Resources */ = {isa = PBXBuildFile; fileRef = B537B1D12760E137007C87C4 /* na.gif */; };
 		B537B1D42760E20B007C87C4 /* GifsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B537B1D32760E20B007C87C4 /* GifsVC.swift */; };
-		B582A2ED275F7B070083F7C6 /* RatingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B582A2EC275F7B070083F7C6 /* RatingController.swift */; };
 		B582A2EF275F82A10083F7C6 /* AlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B582A2EE275F82A10083F7C6 /* AlertVC.swift */; };
 		B582A2F1275F85560083F7C6 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B582A2F0275F85560083F7C6 /* CreateAccountVC.swift */; };
 		B582A2F3275F93360083F7C6 /* FeedbackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B582A2F2275F93360083F7C6 /* FeedbackVC.swift */; };
@@ -28,16 +26,15 @@
 		B5A8E9B827565B67009DAFD7 /* ServicesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A8E9B727565B67009DAFD7 /* ServicesVC.swift */; };
 		B5A8E9BA27565F37009DAFD7 /* AppointmentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A8E9B927565F37009DAFD7 /* AppointmentVC.swift */; };
 		B5A8E9BC27565F81009DAFD7 /* CheckoutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A8E9BB27565F81009DAFD7 /* CheckoutVC.swift */; };
+		B5C630F82762371800CF46DE /* ReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C630F72762371800CF46DE /* ReviewCell.swift */; };
 		B6664BCF91E8266C35BEB2B9 /* Pods_aSPA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC773BF87371070D87305691 /* Pods_aSPA.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B537B1CB276091D5007C87C4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		B537B1CD27609541007C87C4 /* ReviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewVC.swift; sourceTree = "<group>"; };
-		B537B1CF27609C67007C87C4 /* ReviewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewTableViewCell.swift; sourceTree = "<group>"; };
 		B537B1D12760E137007C87C4 /* na.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = na.gif; sourceTree = "<group>"; };
 		B537B1D32760E20B007C87C4 /* GifsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifsVC.swift; sourceTree = "<group>"; };
-		B582A2EC275F7B070083F7C6 /* RatingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingController.swift; sourceTree = "<group>"; };
 		B582A2EE275F82A10083F7C6 /* AlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertVC.swift; sourceTree = "<group>"; };
 		B582A2F0275F85560083F7C6 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 		B582A2F2275F93360083F7C6 /* FeedbackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackVC.swift; sourceTree = "<group>"; };
@@ -55,6 +52,7 @@
 		B5A8E9B727565B67009DAFD7 /* ServicesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesVC.swift; sourceTree = "<group>"; };
 		B5A8E9B927565F37009DAFD7 /* AppointmentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentVC.swift; sourceTree = "<group>"; };
 		B5A8E9BB27565F81009DAFD7 /* CheckoutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutVC.swift; sourceTree = "<group>"; };
+		B5C630F72762371800CF46DE /* ReviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewCell.swift; sourceTree = "<group>"; };
 		B890B8143197D61823132F71 /* Pods-aSPA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aSPA.release.xcconfig"; path = "Target Support Files/Pods-aSPA/Pods-aSPA.release.xcconfig"; sourceTree = "<group>"; };
 		C5F7C60166AB3A73131D435A /* Pods-aSPA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aSPA.debug.xcconfig"; path = "Target Support Files/Pods-aSPA/Pods-aSPA.debug.xcconfig"; sourceTree = "<group>"; };
 		FC773BF87371070D87305691 /* Pods_aSPA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_aSPA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,8 +125,8 @@
 		B5DC21F9275DE829001B0374 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				B537B1CF27609C67007C87C4 /* ReviewTableViewCell.swift */,
 				B5A2BD6A27578EEB001E1CA6 /* PhotosCell.swift */,
+				B5C630F72762371800CF46DE /* ReviewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -141,7 +139,6 @@
 				B5A2BD642757612F001E1CA6 /* LocationVC.swift */,
 				B5A2BD6627578E97001E1CA6 /* PhotosVC.swift */,
 				B5A8E9B727565B67009DAFD7 /* ServicesVC.swift */,
-				B582A2EC275F7B070083F7C6 /* RatingController.swift */,
 				B582A2EE275F82A10083F7C6 /* AlertVC.swift */,
 				B582A2F0275F85560083F7C6 /* CreateAccountVC.swift */,
 				B582A2F2275F93360083F7C6 /* FeedbackVC.swift */,
@@ -284,13 +281,12 @@
 				B5A8E99A275630C9009DAFD7 /* AppDelegate.swift in Sources */,
 				B582A2EF275F82A10083F7C6 /* AlertVC.swift in Sources */,
 				B5A8E9BA27565F37009DAFD7 /* AppointmentVC.swift in Sources */,
-				B537B1D027609C67007C87C4 /* ReviewTableViewCell.swift in Sources */,
-				B582A2ED275F7B070083F7C6 /* RatingController.swift in Sources */,
 				B537B1D42760E20B007C87C4 /* GifsVC.swift in Sources */,
 				B582A2F3275F93360083F7C6 /* FeedbackVC.swift in Sources */,
 				B5A8E99C275630C9009DAFD7 /* SceneDelegate.swift in Sources */,
 				B582A2F1275F85560083F7C6 /* CreateAccountVC.swift in Sources */,
 				B5A2BD6B27578EEB001E1CA6 /* PhotosCell.swift in Sources */,
+				B5C630F82762371800CF46DE /* ReviewCell.swift in Sources */,
 				B5A2BD652757612F001E1CA6 /* LocationVC.swift in Sources */,
 				B5A2BD6727578E97001E1CA6 /* PhotosVC.swift in Sources */,
 			);

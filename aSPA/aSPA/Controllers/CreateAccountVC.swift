@@ -26,9 +26,10 @@ class CreateAccountVC: UIViewController{
 
         
     @IBAction func create(_ sender: Any) {
-    
+        
+        let name = customerName.text!
     let email = customerEmail.text!
-            let password = customerPassword.text!
+    let password = customerPassword.text!
 
             Auth.auth().signIn(withEmail: email, password: password) { [weak self] user, error in
                 guard let strongSelf = self else { return }
@@ -40,6 +41,8 @@ class CreateAccountVC: UIViewController{
         }
         
         @IBAction func createAccount(_ sender: Any) {
+    
+            let name = customerName.text!
             let email = customerEmail.text!
             let password = customerPassword.text!
             Auth.auth().createUser(withEmail: email, password: password) { authResult, error in

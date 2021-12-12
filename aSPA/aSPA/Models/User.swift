@@ -10,7 +10,6 @@ import UIKit
 
 struct User {
     let id : String
-//    let image : UIImage?
+    let name : String
     let comment : String
-    let rating : String
 }
