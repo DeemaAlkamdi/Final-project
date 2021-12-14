@@ -6,11 +6,13 @@
 //
 
 import UIKit
-import CoreData
+import Firebase
+import FirebaseFirestore
 
 class AppointmentVC: UIViewController, UITextFieldDelegate, UIPickerViewDelegate, UIPickerViewDataSource {
     
-    //Add Picker View
+    // Add Picker View for gueste
+    
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         view.endEditing(true)
     }
@@ -47,9 +49,12 @@ class AppointmentVC: UIViewController, UITextFieldDelegate, UIPickerViewDelegate
     
     
     
-    //appointment
+    // Appointment schedule
+    
     @IBOutlet weak var firstName: UITextField!
     @IBOutlet weak var lastName: UITextField!
+    @IBOutlet weak var numTF: UITextField!
+    
     @IBOutlet weak var done: UIButton!
     @IBOutlet weak var scheduler: UIDatePicker!
     
@@ -64,7 +69,7 @@ class AppointmentVC: UIViewController, UITextFieldDelegate, UIPickerViewDelegate
     @IBAction func saveLast(_ sender: UITextField) {
         last = lastName.text!
     }
-    
+    //   Add date picker
     @IBAction func saveDateTime(_ sender: UIDatePicker) {
         let dateFormatter = DateFormatter()
         dateFormatter.locale = NSLocale(localeIdentifier: "en_US_POSIX") as Locale?
@@ -79,6 +84,8 @@ class AppointmentVC: UIViewController, UITextFieldDelegate, UIPickerViewDelegate
         gueste.dataSource = self
         guesteTF.inputView = gueste
         
+        view.backgroundColor = UIColor(named: "bgColor")
+        //        Add toolbar for picker
         let toolBar = UIToolbar()
         toolBar.sizeToFit()
         let btnDone = UIBarButtonItem(title: "Done", style: .plain, target: self, action: #selector(closePicker))
@@ -91,6 +98,7 @@ class AppointmentVC: UIViewController, UITextFieldDelegate, UIPickerViewDelegate
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+        
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -101,4 +109,16 @@ class AppointmentVC: UIViewController, UITextFieldDelegate, UIPickerViewDelegate
         }
     }
     
+    @IBAction func Done(_ sender: Any) {
+        let name = firstName.text!
+        let email = lastName.text!
+        let password = numTF.text!
+        Auth.auth().createUser(withEmail: email, password: password) { authResult, error in
+            if(error != nil) {
+                print(error as Any)
+                return
+            }
+        }
+     
+    }
 }

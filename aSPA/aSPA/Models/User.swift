@@ -8,8 +8,14 @@
 
 import UIKit
 
+//User struct
+
 struct User {
     let id : String
     let name : String
     let comment : String
 }
+
+//Set
+
+var users : Array<User> = []

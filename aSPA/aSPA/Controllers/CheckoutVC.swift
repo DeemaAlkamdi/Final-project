@@ -9,12 +9,14 @@
 import UIKit
 
 class CheckoutVC: UIViewController {
-    
+//    Message to customer an appointment has been booked
     var thankYou: String = ""
+    
     @IBOutlet weak var thankYouLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = UIColor(named: "bgColor")
         
         thankYouLabel?.text = thankYou
     }

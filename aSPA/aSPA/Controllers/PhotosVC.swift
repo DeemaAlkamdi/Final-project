@@ -7,10 +7,13 @@
 
 import UIKit
 
-class PhotosVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
-    
+protocol  MoveToNextIndex {
+    func  moveToNextIndex()
+}
+
+class PhotosVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout , MoveToNextIndex{
+//    Add collection view to show many photos
     @IBOutlet weak var pageControl: UIPageControl!
-    
     @IBOutlet weak var collectionview: UICollectionView!
     
     var arrPhotos =
@@ -23,7 +26,7 @@ class PhotosVC: UIViewController, UICollectionViewDelegate, UICollectionViewData
      UIImage(named: "g")!,
      UIImage(named: "h")!,]
     
-    
+//    Timer
     var timer :Timer?
     var currentCellIndex = 0
     
@@ -61,6 +64,7 @@ class PhotosVC: UIViewController, UICollectionViewDelegate, UICollectionViewData
         super.viewDidLoad()
         collectionview.delegate = self
         collectionview.dataSource = self
+        view.backgroundColor = UIColor(named: "bgColor")
         
         startTimer()
         pageControl.numberOfPages = arrPhotos.count

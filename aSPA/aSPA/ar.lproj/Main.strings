@@ -1,6 +1,18 @@
 
+/* Class = "UITextField"; placeholder = "Enter your email"; ObjectID = "2G0-1B-CZN"; */
+"2G0-1B-CZN.placeholder" = "Enter your email";
+
+/* Class = "UITabBarItem"; title = "Review"; ObjectID = "4Db-VJ-xTp"; */
+"4Db-VJ-xTp.title" = "Review";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "4mk-nW-oH5"; */
+"4mk-nW-oH5.normalTitle" = "Button";
+
 /* Class = "UITextField"; placeholder = "Enter Your Number"; ObjectID = "58a-k7-xDb"; */
 "58a-k7-xDb.placeholder" = "Enter Your Number";
+
+/* Class = "UITabBarItem"; title = "Trendy Nails"; ObjectID = "7j5-16-dP7"; */
+"7j5-16-dP7.title" = "Trendy Nails";
 
 /* Class = "UIButton"; configuration.title = "Choose Serviecs"; ObjectID = "8ch-vV-HIy"; */
 "8ch-vV-HIy.configuration.title" = "Choose Serviecs";
@@ -8,8 +20,20 @@
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "8ch-vV-HIy"; */
 "8ch-vV-HIy.normalTitle" = "Button";
 
+/* Class = "UILabel"; text = "Share your experiencs to help others!"; ObjectID = "8zR-NI-4Re"; */
+"8zR-NI-4Re.text" = "Share your experiencs to help others!";
+
 /* Class = "UILabel"; text = "Schedule Appointment"; ObjectID = "9Wt-Yo-HtV"; */
 "9Wt-Yo-HtV.text" = "Schedule Appointment";
+
+/* Class = "UIButton"; configuration.title = "Post"; ObjectID = "Atl-vN-nde"; */
+"Atl-vN-nde.configuration.title" = "Post";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Atl-vN-nde"; */
+"Atl-vN-nde.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "BkD-hD-pTE"; */
+"BkD-hD-pTE.normalTitle" = "Button";
 
 /* Class = "UIButton"; configuration.title = "Continue"; ObjectID = "C2r-bL-4EQ"; */
 "C2r-bL-4EQ.configuration.title" = "Continue";
@@ -17,8 +41,29 @@
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "C2r-bL-4EQ"; */
 "C2r-bL-4EQ.normalTitle" = "Button";
 
-/* Class = "UILabel"; text = "Services👇🏻"; ObjectID = "IwC-ie-sBw"; */
-"IwC-ie-sBw.text" = "Services👇🏻";
+/* Class = "UITextField"; placeholder = "Your name"; ObjectID = "F8t-Hq-cUL"; */
+"F8t-Hq-cUL.placeholder" = "Your name";
+
+/* Class = "UIButton"; configuration.title = "Done"; ObjectID = "H6h-yf-RUG"; */
+"H6h-yf-RUG.configuration.title" = "Done";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "H6h-yf-RUG"; */
+"H6h-yf-RUG.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Enter your password"; ObjectID = "Ieg-Fs-3ov"; */
+"Ieg-Fs-3ov.placeholder" = "Enter your password";
+
+/* Class = "UIButton"; configuration.title = "Create!"; ObjectID = "JVL-Ts-mWa"; */
+"JVL-Ts-mWa.configuration.title" = "Create!";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "JVL-Ts-mWa"; */
+"JVL-Ts-mWa.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "How many guests?"; ObjectID = "Ktk-za-kpp"; */
+"Ktk-za-kpp.placeholder" = "How many guests?";
+
+/* Class = "UITextField"; placeholder = "Share details of your own experiencs at this place"; ObjectID = "LCS-lO-rwf"; */
+"LCS-lO-rwf.placeholder" = "Share details of your own experiencs at this place";
 
 /* Class = "UILabel"; text = "Total Cost:"; ObjectID = "Llq-Qb-LYu"; */
 "Llq-Qb-LYu.text" = "Total Cost:";
@@ -26,11 +71,62 @@
 /* Class = "UITextField"; placeholder = "Enter Your Name"; ObjectID = "M3Q-je-jyk"; */
 "M3Q-je-jyk.placeholder" = "Enter Your Name";
 
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "NaP-p9-9jD"; */
+"NaP-p9-9jD.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Please give us your feedback🤩"; ObjectID = "Q38-BH-ZH3"; */
+"Q38-BH-ZH3.configuration.title" = "Please give us your feedback🤩";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Q38-BH-ZH3"; */
+"Q38-BH-ZH3.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Enter your name"; ObjectID = "Qc0-cV-zg0"; */
+"Qc0-cV-zg0.placeholder" = "Enter your name";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "SND-hQ-wTN"; */
+"SND-hQ-wTN.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "SQ4-9k-ymJ"; */
+"SQ4-9k-ymJ.normalTitle" = "Button";
+
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Sds-F2-lAb"; */
 "Sds-F2-lAb.normalTitle" = "Button";
 
-/* Class = "UILabel"; text = "A Spa King Fahad Road"; ObjectID = "di4-Qp-fOU"; */
-"di4-Qp-fOU.text" = "A Spa King Fahad Road";
+/* Class = "UIButton"; configuration.title = "Post"; ObjectID = "aTo-xr-86e"; */
+"aTo-xr-86e.configuration.title" = "Post";
 
-/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "kZO-Bw-PIT"; */
-"kZO-Bw-PIT.normalTitle" = "Done";
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "aTo-xr-86e"; */
+"aTo-xr-86e.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Share your experiencs to help others!"; ObjectID = "af2-Ur-fOL"; */
+"af2-Ur-fOL.text" = "Share your experiencs to help others!";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "atw-SS-j1m"; */
+"atw-SS-j1m.text" = "Label";
+
+/* Class = "UIButton"; configuration.title = "Sign Out"; ObjectID = "bg4-AY-cZe"; */
+"bg4-AY-cZe.configuration.title" = "Sign Out";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "bg4-AY-cZe"; */
+"bg4-AY-cZe.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "A Spa King Fahd Road"; ObjectID = "di4-Qp-fOU"; */
+"di4-Qp-fOU.text" = "A Spa King Fahd Road";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "flL-6o-m0G"; */
+"flL-6o-m0G.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Share details of your own experiencs at this place"; ObjectID = "hf3-bw-qgx"; */
+"hf3-bw-qgx.placeholder" = "Share details of your own experiencs at this place";
+
+/* Class = "UITabBarItem"; title = "Services"; ObjectID = "k2n-kN-Ia4"; */
+"k2n-kN-Ia4.title" = "Services";
+
+/* Class = "UILabel"; text = "Hello sweetie create your account ☺︎"; ObjectID = "r6U-ny-QYj"; */
+"r6U-ny-QYj.text" = "Hello sweetie create your account ☺︎";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "sTC-uQ-i24"; */
+"sTC-uQ-i24.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Your name"; ObjectID = "web-fZ-3gv"; */
+"web-fZ-3gv.placeholder" = "Your name";

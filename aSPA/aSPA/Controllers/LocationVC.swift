@@ -9,12 +9,13 @@ import UIKit
 import MapKit
 
 class LocationVC : UIViewController {
-    
+//    Spa location to enable the customer to know the place
     @IBOutlet weak var mapview: MKMapView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         addAnnotation()
+        view.backgroundColor = UIColor(named: "bgColor")
         
         let initialLoc = CLLocation(latitude: 24.693719, longitude: 46.723596)
         

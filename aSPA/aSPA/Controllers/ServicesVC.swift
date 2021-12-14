@@ -8,7 +8,7 @@
 import UIKit
 
 class ServicesVC: UIViewController, UITableViewDataSource, UITableViewDelegate, UITextFieldDelegate {
-    
+//    Add dictionry
     var servicesDict = [
         "Shellac Manicure&Pedicure    $12": 12,
         "Shellac Manicure& Signature Pedicure   $30": 30,
@@ -69,6 +69,7 @@ class ServicesVC: UIViewController, UITableViewDataSource, UITableViewDelegate, 
         // Do any additional setup after loading the view, typically from a nib.
         myTableView.delegate = self
         myTableView.dataSource = self
+        view.backgroundColor = UIColor(named: "bgColor")
     }
     
     override func didReceiveMemoryWarning() {
@@ -76,7 +77,4 @@ class ServicesVC: UIViewController, UITableViewDataSource, UITableViewDelegate, 
         // Dispose of any resources that can be recreated.
     }
     
-    
 }
-
-
