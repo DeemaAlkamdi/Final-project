@@ -11,7 +11,7 @@ import Firebase
 
 
 class ReviewVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
-
+    
 //    variables for user struct
     var users : Array<User> = []
 //
@@ -32,21 +32,22 @@ class ReviewVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         return cell
     }
 
-
+    
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
          let cell = users[indexPath.row]
-         let alertcontroller = UIAlertController(title: "Delete"
-                             , message: "Are you sure you want to delete this comment?"
-                             , preferredStyle: UIAlertController.Style.alert
+         let alertcontroller = UIAlertController(
+            title:NSLocalizedString("Delete", comment: ""),
+            message:NSLocalizedString("Are you sure you want to delete this Comment?",comment: ""),
+            preferredStyle: UIAlertController.Style.alert
          )
             alertcontroller.addAction(
-                UIAlertAction(title: "cancel",
+                UIAlertAction(title:NSLocalizedString("cancel", comment: "") ,
                        style: UIAlertAction.Style.default,
                        handler: { Action in print("...")
            })
          )
          alertcontroller.addAction(
-           UIAlertAction(title: "Delete",
+           UIAlertAction(title: NSLocalizedString("Delete", comment: ""),
                   style: UIAlertAction.Style.destructive,
                   handler: { Action in
              if editingStyle == .delete {
@@ -57,17 +58,20 @@ class ReviewVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
          )
          self.present(alertcontroller, animated: true, completion: nil)
        }
+     
 
 
-    override func viewDidLoad() {
+
+     override func viewDidLoad() {
         super.viewDidLoad()
         tableview.rowHeight = 75
         tableview.delegate = self
         tableview.dataSource = self
         self.dataRead()
+          
         view.backgroundColor = UIColor(named: "bgColor")
-
-    }
+     }
+    
 //    Like button
     @objc func IlikeIt(sender: UIButton){
         print("button index = \(sender.tag)")

@@ -40,10 +40,10 @@ class AppointmentVC: UIViewController, UITextFieldDelegate, UIPickerViewDelegate
     
     let gueste = UIPickerView()
     var arrgueste = [
-        "Just me",
-        "Two guests",
-        "Three guests",
-        "Four guests"
+       NSLocalizedString( "Just me", comment: ""),
+       NSLocalizedString( "Two guests", comment: ""),
+       NSLocalizedString( "Three guests", comment: ""),
+       NSLocalizedString( "Four guests", comment: ""),
     ]
     var currentIndex = 0
     
@@ -51,6 +51,7 @@ class AppointmentVC: UIViewController, UITextFieldDelegate, UIPickerViewDelegate
     
     // Appointment schedule
     
+    @IBOutlet weak var scheduleAppoinLable: UILabel!
     @IBOutlet weak var firstName: UITextField!
     @IBOutlet weak var lastName: UITextField!
     @IBOutlet weak var numTF: UITextField!
@@ -85,6 +86,15 @@ class AppointmentVC: UIViewController, UITextFieldDelegate, UIPickerViewDelegate
         guesteTF.inputView = gueste
         
         view.backgroundColor = UIColor(named: "bgColor")
+        
+        //Localizable
+        scheduleAppoinLable.text = NSLocalizedString("Schedule Appointment", comment: "")
+        guesteTF.placeholder = NSLocalizedString("How many gueste", comment: "")
+        firstName.placeholder = NSLocalizedString("Enter Your Name", comment: "")
+        lastName.placeholder = NSLocalizedString("Enter Your Email", comment: "")
+        numTF.placeholder = NSLocalizedString("Enter Your Number", comment: "")
+        done.setTitle(NSLocalizedString("Done", comment: ""), for: .normal)
+     
         //        Add toolbar for picker
         let toolBar = UIToolbar()
         toolBar.sizeToFit()
@@ -104,8 +114,7 @@ class AppointmentVC: UIViewController, UITextFieldDelegate, UIPickerViewDelegate
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let vc = segue.destination as? CheckoutVC
         {
-            vc.thankYou =
-            "Thank you \(first)🤍. We look forward to seeing you at your appointment scheduled on \(date)"
+            vc.thankYou = NSLocalizedString(  "Thank you \(first)🤍. We look forward to seeing you at your appointment scheduled on \(date)", comment: "")
         }
     }
     
@@ -113,12 +122,22 @@ class AppointmentVC: UIViewController, UITextFieldDelegate, UIPickerViewDelegate
         let name = firstName.text!
         let email = lastName.text!
         let password = numTF.text!
-        Auth.auth().createUser(withEmail: email, password: password) { authResult, error in
-            if(error != nil) {
-                print(error as Any)
-                return
-            }
-        }
+        if email.isEmpty || password.isEmpty {
+                    alertUserLoginError2()
+                    return
+                }
+                Auth.auth().createUser(withEmail: email, password: password //type: self.type ?? "0"
+                ) { result, error in
+                    if error != nil {
+                        print(error as Any)
+                        return
+                    }
+                }
+                func alertUserLoginError2() {
+                    let alert = UIAlertController(title: NSLocalizedString("😯", comment: ""), message: NSLocalizedString("ent", comment: "") , preferredStyle: .alert)
+                    alert.addAction(UIAlertAction(title: NSLocalizedString("ok", comment: ""), style: .cancel , handler: nil))
+                    present(alert, animated: true)
+                }
      
     }
 }

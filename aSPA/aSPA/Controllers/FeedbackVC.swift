@@ -12,9 +12,13 @@ class FeedbackVC: UIViewController {
     
     
     
+    @IBOutlet weak var shareLable: UILabel!
     @IBOutlet weak var nameTF: UITextField!
     @IBOutlet weak var commentTF: UITextField!
     @IBOutlet weak var gifsview: UIImageView!
+    @IBOutlet weak var postbtn: UIButton!
+    
+    @IBOutlet weak var homeBtn: UIButton!
     
     
 //    Connect with firebase
@@ -36,6 +40,14 @@ class FeedbackVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor(named: "bgColor")
+        
+        //Localizable
+        shareLable.text = NSLocalizedString("Share your experiencs to help others", comment: "")
+        nameTF.placeholder = NSLocalizedString("Your name", comment: "")
+        commentTF.placeholder = NSLocalizedString("Share detalis of your own experiencs at this place", comment: "")
+        postbtn.setTitle(NSLocalizedString("Post", comment: ""), for: .normal)
+        homeBtn.setTitle(NSLocalizedString("Home", comment: ""), for: .normal)
+
         
         let gifs = UIImage.gifImageWithName("gifsview")
         gifsview.image = gifs

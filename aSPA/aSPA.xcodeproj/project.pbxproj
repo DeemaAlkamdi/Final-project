@@ -24,7 +24,7 @@
 		B5A8E9B827565B67009DAFD7 /* ServicesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A8E9B727565B67009DAFD7 /* ServicesVC.swift */; };
 		B5A8E9BA27565F37009DAFD7 /* AppointmentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A8E9B927565F37009DAFD7 /* AppointmentVC.swift */; };
 		B5A8E9BC27565F81009DAFD7 /* CheckoutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A8E9BB27565F81009DAFD7 /* CheckoutVC.swift */; };
-		B5BE9B132767424C00B74124 /* FirstInterfaceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BE9B122767424C00B74124 /* FirstInterfaceVC.swift */; };
+		B5BE9B132767424C00B74124 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BE9B122767424C00B74124 /* HomeVC.swift */; };
 		B5BE9B1627675EA900B74124 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5BE9B1827675EA900B74124 /* Localizable.strings */; };
 		B5C630F82762371800CF46DE /* ReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C630F72762371800CF46DE /* ReviewCell.swift */; };
 		B6664BCF91E8266C35BEB2B9 /* Pods_aSPA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC773BF87371070D87305691 /* Pods_aSPA.framework */; };
@@ -50,7 +50,8 @@
 		B5A8E9B727565B67009DAFD7 /* ServicesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesVC.swift; sourceTree = "<group>"; };
 		B5A8E9B927565F37009DAFD7 /* AppointmentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentVC.swift; sourceTree = "<group>"; };
 		B5A8E9BB27565F81009DAFD7 /* CheckoutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutVC.swift; sourceTree = "<group>"; };
-		B5BE9B122767424C00B74124 /* FirstInterfaceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstInterfaceVC.swift; sourceTree = "<group>"; };
+		B5AF68E92768A70C00D427E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		B5BE9B122767424C00B74124 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		B5BE9B1727675EA900B74124 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B5BE9B1927675ECB00B74124 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
 		B5BE9B1A27675ECC00B74124 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
@@ -106,6 +107,7 @@
 				B5DC21F9275DE829001B0374 /* Views */,
 				B5DC21FA275DE839001B0374 /* Controllers */,
 				B5A8E9AD27563355009DAFD7 /* GoogleService-Info.plist */,
+				B5BE9B1827675EA900B74124 /* Localizable.strings */,
 				B5A8E999275630C9009DAFD7 /* AppDelegate.swift */,
 				B5A8E99B275630C9009DAFD7 /* SceneDelegate.swift */,
 				B5A8E99F275630C9009DAFD7 /* Main.storyboard */,
@@ -137,7 +139,7 @@
 		B5DC21FA275DE839001B0374 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				B5BE9B122767424C00B74124 /* FirstInterfaceVC.swift */,
+				B5BE9B122767424C00B74124 /* HomeVC.swift */,
 				B5A8E9B927565F37009DAFD7 /* AppointmentVC.swift */,
 				B5A8E9BB27565F81009DAFD7 /* CheckoutVC.swift */,
 				B5A2BD642757612F001E1CA6 /* LocationVC.swift */,
@@ -146,7 +148,6 @@
 				B582A2F2275F93360083F7C6 /* FeedbackVC.swift */,
 				B537B1D32760E20B007C87C4 /* GifsVC.swift */,
 				B537B1CD27609541007C87C4 /* ReviewVC.swift */,
-				B5BE9B1827675EA900B74124 /* Localizable.strings */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -282,7 +283,7 @@
 				B537B1CC276091D5007C87C4 /* User.swift in Sources */,
 				B5A8E9BC27565F81009DAFD7 /* CheckoutVC.swift in Sources */,
 				B537B1CE27609542007C87C4 /* ReviewVC.swift in Sources */,
-				B5BE9B132767424C00B74124 /* FirstInterfaceVC.swift in Sources */,
+				B5BE9B132767424C00B74124 /* HomeVC.swift in Sources */,
 				B5A8E9B827565B67009DAFD7 /* ServicesVC.swift in Sources */,
 				B5A8E99A275630C9009DAFD7 /* AppDelegate.swift in Sources */,
 				B5A8E9BA27565F37009DAFD7 /* AppointmentVC.swift in Sources */,
@@ -304,6 +305,7 @@
 			children = (
 				B5A8E9A0275630C9009DAFD7 /* Base */,
 				B5BE9B1927675ECB00B74124 /* ar */,
+				B5AF68E92768A70C00D427E3 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

@@ -8,16 +8,21 @@
 import UIKit
 
 class ServicesVC: UIViewController, UITableViewDataSource, UITableViewDelegate, UITextFieldDelegate {
-//    Add dictionry
+    
+    
+    @IBOutlet weak var costLable: UILabel!
+    @IBOutlet weak var continueBtn: UIButton!
+    //    Add dictionry
     var servicesDict = [
-        "Shellac Manicure&Pedicure    $12": 12,
-        "Shellac Manicure& Signature Pedicure   $30": 30,
-        "Signature Manicure&Pedicure    $25": 25,
-        "Gel Full Set    $35": 35,
-        "Foot Massage    $30+": 30,
-        "Signature Massage    $45+": 45,
-        "Back & Shoulder Massage    $50+": 50,
-        "Vietnamese Massage    $50+": 50,
+       NSLocalizedString( "Shellac Manicure&Pedicure    $12", comment: ""): 12,
+       NSLocalizedString( "Shellac Manicure& Signature Pedicure   $30", comment: ""): 30,
+       NSLocalizedString( "Signature Manicure&Pedicure    $25", comment: "") : 25,
+       NSLocalizedString( "Gel Full Set    $35", comment: ""): 35,
+       NSLocalizedString( "Foot Massage    $30+", comment: ""): 30,
+       NSLocalizedString("Signature Massage    $45+", comment: ""): 45,
+       
+       NSLocalizedString("Back & Shoulder Massage    $50+", comment: ""): 50,
+       NSLocalizedString("Vietnamese Massage    $50+", comment: ""): 50,
         
     ]
     
@@ -70,6 +75,10 @@ class ServicesVC: UIViewController, UITableViewDataSource, UITableViewDelegate, 
         myTableView.delegate = self
         myTableView.dataSource = self
         view.backgroundColor = UIColor(named: "bgColor")
+        
+        //Localizable
+        costLable.text = NSLocalizedString("TotalCost", comment: "")
+        continueBtn.setTitle(NSLocalizedString("Continue", comment: ""), for: .normal)
     }
     
     override func didReceiveMemoryWarning() {

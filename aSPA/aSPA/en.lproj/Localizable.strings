@@ -1,0 +1,60 @@
+/* 
+  File.strings
+  aSPA
+
+  Created by dmdm on 13/12/2021.
+  
+*/
+
+//home page
+"A Spa King Fahd Road" = "A Spa King Fahd Road";
+"Choose Serviecs" = "Choose Serviecs";
+
+//ServicesVC
+"Continue" = "Continue";
+"TotalCost" = "Total Cost";
+"Shellac Manicure&Pedicure    $12" = "Shellac Manicure&Pedicure    $12";
+"Shellac Manicure& Signature Pedicure   $30" = "Shellac Manicure& Signature Pedicure   $30";
+"Signature Manicure&Pedicure    $25" = "Signature Manicure&Pedicure    $25";
+"Gel Full Set    $35" = "Gel Full Set    $35";
+"Foot Massage    $30+" =  "Foot Massage    $30+";
+"Signature Massage    $45+" = "Signature Massage    $45+";
+"Back & Shoulder Massage    $50+" = "Back & Shoulder Massage    $50+";
+"Vietnamese Massage    $50+" = "Vietnamese Massage    $50+";
+//AppointmentVC
+"Schedule Appointment" = "Schedule Appointment";
+"How many gueste" = "How many gueste";
+"Enter Your Name" = "Enter Your Name";
+"Enter Your Email" = "Enter Your Email";
+"Enter Your Number" = "Enter Your Number";
+"Done" = "Done";
+
+"Just me" = "Just me";
+"Two guests" = "Two guests";
+"Three guests" = "Three guests";
+"Four guests" =  "Four guests";
+
+ 
+//CheckoutVC
+"Thank you \(first)🤍. We look forward to seeing you at your appointment scheduled on \(date)" = "Thank you \(first)🤍. We look forward to seeing you at your appointment scheduled on \(date)" ;
+
+"Please give us your feedback🤩" = "Please give us your feedback🤩";
+
+//FeedbackVC
+"Share your experiencs to help others" = "Share your experiencs to help others";
+"Your name" = "Your name";
+"Share detalis of your own experiencs at this place" = "Share detalis of your own experiencs at this place";
+"Post" = "Post";
+"Home" = "Home";
+
+//Alert ReviewVC
+
+"Delete" = "Delete" ;
+"Are you sure you want to delete this Comment?" = "Are you sure you want to delete this Comment?" ;
+"cancel" = "cancel" ;
+"Delete" = "Delete" ;
+
+
+"😯" = "Ohh😯" ;
+"ent" = "Please! Complate Your Information";
+"ok" = "Done";
